@@ -46,6 +46,7 @@ public class Carro {
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida. Tente novamente.");

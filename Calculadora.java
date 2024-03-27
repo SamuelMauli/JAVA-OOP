@@ -16,7 +16,7 @@ public class Calculadora {
             System.out.println("2. Subtração");
             System.out.println("3. Multiplicação");
             System.out.println("4. Divisão");
-            System.out.println("5. Sair");
+            System.out.println("0. Sair");
 
             int escolha = scanner.nextInt();
 
@@ -33,9 +33,10 @@ public class Calculadora {
                 case 4:
                     divisao();
                     break;
-                case 5:
+                case 0:
                     continuar = false;
                     System.out.println("Calculadora encerrada.");
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Escolha inválida. Tente novamente.");

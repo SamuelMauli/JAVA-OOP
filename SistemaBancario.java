@@ -34,6 +34,7 @@ public class SistemaBancario {
                     break;
                 case 0:
                     System.out.println("Saindo...");
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida.");

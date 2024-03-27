@@ -33,6 +33,7 @@ public class GerenciamentoJogadores {
                     break;
                 case 0:
                     System.out.println("Saindo...");
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida. Por favor, escolha novamente.");

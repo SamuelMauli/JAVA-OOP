@@ -39,7 +39,7 @@ public class Main {
                     PrincipalAgenda.executarAgendaDeContatos();
                     break;
                 case 7:
-                    // Executar exercício 07 (Gerenciamento de Estoque)
+                    PrincipalMercado.executarMercado();
                     break;
                 case 8:
                     // Executar exercício 08 (Sistema de Pedidos de Pizzaria)

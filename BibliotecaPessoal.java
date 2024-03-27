@@ -56,6 +56,7 @@ public class BibliotecaPessoal {
                     break;
                 case 0:
                     System.out.println("Retornando ao menu principal.");
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida. Por favor, tente novamente.");
