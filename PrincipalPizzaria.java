@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class PrincipalPizzaria {
     public static void main(String[] args) {
+        executarPrincipalPizzaria();
+    }
+
+    public static void executarPrincipalPizzaria() {
         List<Pizza> cardapio = Pizza.criarCardapio();
         List<Pedido> pedidos = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
@@ -36,7 +40,7 @@ public class PrincipalPizzaria {
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
-                    Main.main(args);
+                    Main.main(null);
                     break;
                 default:
                     System.out.println("Opção inválida. Tente novamente.");
@@ -107,5 +111,4 @@ public class PrincipalPizzaria {
             System.out.println("- " + pizza.getNome() + " - R$ " + pizza.getValor());
         }
     }
-}
-
+    }

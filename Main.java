@@ -6,6 +6,7 @@ public class Main {
         int escolha;
 
         do {
+            System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             System.out.println("Escolha o exercício que deseja executar:");
             System.out.println("1. Calculadora");
             System.out.println("2. Biblioteca Pessoal");
@@ -16,6 +17,7 @@ public class Main {
             System.out.println("7. Gerenciamento de Estoque");
             System.out.println("8. Sistema de Pedidos de Pizzaria");
             System.out.println("0. Fechar programa");
+            System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             System.out.print("Opção: ");
             escolha = scanner.nextInt();
 
@@ -42,7 +44,7 @@ public class Main {
                     PrincipalMercado.executarMercado();
                     break;
                 case 8:
-                    // Executar exercício 08 (Sistema de Pedidos de Pizzaria)
+                    PrincipalPizzaria.executarPrincipalPizzaria();
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
