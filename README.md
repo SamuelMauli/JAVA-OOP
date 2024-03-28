@@ -3,7 +3,7 @@
 Este repositório contém as classes desenvolvidas para resolver os exercícios propostos na disciplina de Desenvolvimento de Software, ministrada pelo professor André Luis Jeller Selleti. 
 Este projeto simples, embora desafiador, proporcionou uma maneira eficiente de aprender Java.
 
-##Divisão
+## Divisão
 
 O Projeto foi dividido em 2 pastas, uma com um código geral com todas as funcionalidades. Já a outra pasta com cada código Individual. 
 
